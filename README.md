@@ -42,15 +42,25 @@
 
 ```
 简纯+/
-├── 简纯+.trime.yaml    # 主题配置文件
-├── backgrounds/         # 按键背景图片
-│   ├── default/        # 简蓝主题背景
-│   ├── google_black/   # 简黑主题背景
-│   └── google_white/   # 简白主题背景
-├── fonts/              # 字体文件
-│   └── iconfont.ttf    # 图标字体
-└── image/              # 主题预览图
+├── 简纯+.trime.yaml            # 主题配置文件（带底部功能栏）
+├── 简纯+无底部栏.trime.yaml      # 主题配置文件（无底部功能栏）
+├── backgrounds/                # 按键背景图片
+│   ├── default/                # 简蓝主题背景
+│   ├── google_black/           # 简黑主题背景
+│   └── google_white/           # 简白主题背景
+├── fonts/                      # 字体文件
+│   └── iconfont.ttf            # 图标字体
+└── image/                      # 主题预览图
 ```
+
+## 配置说明
+
+本主题提供两个配置文件：
+
+- **简纯+.trime.yaml**：带底部功能栏的版本，包含常用功能按键
+- **简纯+无底部栏.trime.yaml**：无底部功能栏的版本，界面更简洁
+
+使用无底部栏版本时，可通过修改配置文件中的 `keyboard_padding_bottom` 值来调整底部空白区域的大小，以适配不同手机的全面屏手势区域。
 
 ## 键盘布局
 
