@@ -258,7 +258,7 @@ liquid_keyboard:
     name: "单位"
     type: SINGLE
   vertical_gap: 1
-name: "简纯+无数字行"
+name: "简纯+"
 preedit:
   foreground:
     font_size: 16
@@ -3224,6 +3224,30 @@ preset_keyboards:
           key_back_color: off_sym_back_color,
           key_text_color: off_sym_text_color,
           width: 12.5,
+        },
+        {
+          click: kb_26jian,
+          hilited_key_back_color: hilited_off_sym_back_color,
+          hilited_key_text_color: hilited_off_sym_text_color,
+          hint: "26键",
+          key_back_color: off_sym_back_color,
+          key_text_color: off_sym_text_color,
+        },
+        {
+          click: kb_18jian,
+          hilited_key_back_color: hilited_off_sym_back_color,
+          hilited_key_text_color: hilited_off_sym_text_color,
+          hint: "18键",
+          key_back_color: off_sym_back_color,
+          key_text_color: off_sym_text_color,
+        },
+        {
+          click: kb_14jian,
+          hilited_key_back_color: hilited_off_sym_back_color,
+          hilited_key_text_color: hilited_off_sym_text_color,
+          hint: "14键",
+          key_back_color: off_sym_back_color,
+          key_text_color: off_sym_text_color,
         },
         {
           click: Keyboard_func1,
@@ -12439,7 +12463,7 @@ style:
   key_long_text_size: 16
   key_text_size: 20
   key_width: 10
-  keyboard_height: 280
+  keyboard_height: 260
   keyboard_height_land: 200
   keyboard_padding: 2
   keyboard_padding_bottom: 5
