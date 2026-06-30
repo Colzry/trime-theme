@@ -12382,7 +12382,7 @@ preset_keys:
     text: "["
 styl:
   bottom_key:
-    height: 35
+    height: 40
     key_back_color: keyboard_back_color
   hilited_menu:
     height: 32
@@ -12463,10 +12463,10 @@ style:
   key_long_text_size: 16
   key_text_size: 20
   key_width: 10
-  keyboard_height: 260
+  keyboard_height: 270
   keyboard_height_land: 200
   keyboard_padding: 2
-  keyboard_padding_bottom: 5
+  keyboard_padding_bottom: 10
   keyboard_padding_land: 0
   keyboard_padding_land_bottom: 0
   keyboard_padding_left: 10
