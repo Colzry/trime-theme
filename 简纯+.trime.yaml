@@ -569,7 +569,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 12,
         },
         {
@@ -625,7 +624,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           width: 16,
         },
         { click: IME_switch, width: 18, __include: styl/bottom_key },
@@ -1308,7 +1306,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 11,
         },
         {
@@ -1364,7 +1361,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           width: 15,
         },
         { click: IME_switch, width: 18, __include: styl/bottom_key },
@@ -2037,7 +2033,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 11,
         },
         {
@@ -2092,7 +2087,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           swipe_up: CommitScriptText,
           width: 15,
         },
@@ -3505,7 +3499,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 11,
         },
         {
@@ -3560,7 +3553,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           swipe_up: CommitScriptText,
           width: 15,
         },
@@ -3810,7 +3802,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 11,
         },
         {
@@ -3865,7 +3856,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           swipe_up: CommitScriptText,
           width: 15,
         },
@@ -4115,7 +4105,6 @@ preset_keyboards:
           key_back_color: off_key_back_color,
           key_symbol_color: off_key_symbol_color,
           key_symbol_offset_x: 0,
-          long_click: Color_switch,
           width: 11,
         },
         {
@@ -4170,7 +4159,6 @@ preset_keyboards:
           key_symbol_color: enter_symbol_color,
           key_symbol_offset_x: 0,
           key_text_color: enter_text_color,
-          long_click: kb_func,
           swipe_up: CommitScriptText,
           width: 15,
         },
@@ -11300,11 +11288,11 @@ preset_keys:
     select: 14numberen
     send: Eisu_toggle
   14Keyboard_symbols:
-    label: "۞"
+    label: "符"
     select: 14symbols
     send: Eisu_toggle
   14Keyboard_symbolsen:
-    label: "۞"
+    label: "符"
     select: 14symbolsen
     send: Eisu_toggle
   14keyas:
@@ -11358,11 +11346,11 @@ preset_keys:
     select: 18numberen
     send: Eisu_toggle
   18Keyboard_symbols:
-    label: "۞"
+    label: "符"
     select: 18symbols
     send: Eisu_toggle
   18Keyboard_symbolsen:
-    label: "۞"
+    label: "符"
     select: 18symbolsen
     send: Eisu_toggle
   18keya:
@@ -11646,7 +11634,7 @@ preset_keys:
     select: .next
     send: Eisu_toggle
   Keyboard_symbols:
-    label: "۞"
+    label: "符"
     select: symbols
     send: Eisu_toggle
   Left:

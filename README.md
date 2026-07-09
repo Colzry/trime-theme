@@ -60,7 +60,7 @@
 - **简纯+.trime.yaml**：带底部功能栏的版本，包含常用功能按键
 - **简纯+无底部栏.trime.yaml**：无底部功能栏的版本，界面更简洁
 
-使用无底部栏版本时，可通过修改配置文件中的 `keyboard_padding_bottom` 值来调整底部空白区域的大小，以适配不同手机的全面屏手势区域。键盘高度可通过修改配置文件中的 `keyboard_height` 值来调整。
+使用无底部栏版本时，可通过修改配置文件中的 `keyboard_padding_bottom` 值来调整底部空白区域的大小，以适配不同手机的全面屏手势区域。键盘高度可通过修改配置文件中的 `keyboard_height` 值来调整。底部功能栏的高度可通过搜索key_back_color: keyboard_back_color来定位，之后修改上面height的值来调整。
 
 ## 键盘布局
 
