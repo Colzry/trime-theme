@@ -269,7 +269,7 @@ preset_color_schemes:
     author: Colzry
     back_color: 0xEEEFF2
     comment_text_color: 0x808080
-    dark_scheme: google_black
+    dark_scheme: black
     enter_back_color: 0x2090FF
     enter_sym_back_color: 0x2090FF
     enter_symbol_color: 0xFFFFFF
@@ -285,13 +285,13 @@ preset_color_schemes:
     key_back_color: 0xDDE2E8
     key_border_color: 0xE0E2E4
     main_back_color: 0xFFFFFF
-    name: "默认白"
+    name: "皓月白"
     off_key_back_color: 0xDDE2E8
     on_key_back_color: 0x2090FF
     on_key_text_color: 0xFFFFFF
     space_back_color: 0xFFFFFF
     text_color: 0x047BD8
-  google_black:
+  black:
     author: Colzry
     back_color: 0x17181A
     comment_text_color: 0xBBBBBB
